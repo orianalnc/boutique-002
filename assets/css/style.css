@@ -3996,7 +3996,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
   padding-bottom: 0.5rem;
 }
 .navbar.navbar-expand-lg{
-  background: #fff !important;
+  background: #624e26 !important;
 }
 
 .navbar-collapse {
@@ -4156,6 +4156,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
     position: absolute;
   }
   .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 1.5em;
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
@@ -9553,6 +9554,7 @@ header .boutique-navbar-brand .boutique-logo:before {
   bottom: 100px;
   width: 100%;
   text-align: center;
+  padding: 1em;
 }
 
 .owl-carousel.home-slider .owl-dots .owl-dot {
@@ -10286,6 +10288,16 @@ textarea.form-control {
   font-weight: 300;
 }
 
+.btq-section-v-360{
+  background-color: #664a33;
+  padding: 1em 0 0 0;
+}
+.btq-section-v-360 h3{
+  color: #fff;
+  text-align: center;
+  padding: 1.5em 0
+}
+
 .btq-section .btq-primary-title {
   margin-top: 0;
   margin-bottom: 30px;
@@ -10318,7 +10330,52 @@ textarea.form-control {
 }
 
 .btq-section {
-  padding: 7em 0;
+  padding: 2em 0;
+  background-color: #664a33;
+}
+.btq-section h3{
+  color: #fff;
+  text-align: center;
+  padding: 1em 0 1.5em 0;
+}
+
+.btq-banner{
+  background-image: url('../images/003.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+  min-width: 100%;
+  padding: 5em;
+}
+.btq-form{
+  background-color: rgba(80, 58, 37, 0.678);
+  color: #fff;
+  padding: 3em;
+}
+.btq-form label a{
+  color: #fff;
+}
+.btq-form label a:hover{
+  color: #ef39a0;
+}
+.btq-form .btn.btn-primary {
+  background: #fff;
+  border: 1px solid #fff;
+  color: #624e26;
+  text-transform: uppercase;
+}
+.btq-form .btn.btn-primary:hover {
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+  text-transform: uppercase;
+}
+.btq-form h1{
+  color: #fff;
+  text-align: center !important;
+  padding: 1em 0;
 }
 
 .btq-bg-dark {
