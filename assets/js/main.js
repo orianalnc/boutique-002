@@ -4,6 +4,7 @@
  });
 
 $(document).ready(function($) {
+	$('#modalShow').modal('show');
 
 	"use strict";
 

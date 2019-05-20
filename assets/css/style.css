@@ -5540,6 +5540,21 @@ button.close {
   }
 }
 
+.bg-frame{
+  background-image: url(../images/frame.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  position: relative;
+}
+.text-frame{
+  position: absolute;
+  margin-top: 140px;
+  text-align: center;
+  margin-left: 90px;
+}
+
 .tooltip {
   position: absolute;
   z-index: 1070;
